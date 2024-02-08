@@ -11,22 +11,28 @@
     <h1>Lista de Tarefas</h1>
 
     <header>
-        <input type="text" name="text" id="input">
-        <button id="btnAdd">Adicionar</button>
+        <input type="text" name="text" id="input" placeholder="Adicione uma nova tarefa">
+        <button id="btnAdd" onclick="addTask()">Adicionar</button>
     </header>
 
-    <main>
-        <div class="item">
-            <div class="item-check">
-                <!-- <span class="material-symbols-outlined">
-                    circle
-                </span> -->
+    <main id="areaItem">
+        
+
+        <!-- <div class="item">
+            <div class="item -check">
+                <span class="material-symbols-outlined">
+                    check_circle
+                </span>
             </div>
-            <div class="item-tarefa">
+            <div class="item -tarefa" onclick="checkTask()">
+                <p>teste feito</p>
             </div>
-            <div class="item-remove">
-            </div>
+            <div class="item -remove">
+                <button class="delete">Excluir</button>
+            </div> -->
         </div>
     </main>
+
+    <script src="./script/script.js"></script>
 </body>
 </html>
