@@ -62,10 +62,13 @@ main {
     margin-bottom: 10px;
 }
 
-.-checked {
-    background-color: green;
+.-feito {
+    background-color: #b6fab6;
+}
+
+.-feito.-tarefa {
     text-decoration: line-through;
-} 
+}
 
 .item.-check {
     flex: 10%;
